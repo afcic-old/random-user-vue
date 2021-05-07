@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 400px;
+}
+
+h1,
+h3 {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+img {
+  border: 5px #333 solid;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.male {
+  background-color: rgb(197, 170, 233);
+  border-color: rgb(184, 141, 241);
+}
+
+.female {
+  background-color: rgb(192, 255, 197);
+  border-color: rgb(144, 236, 132);
+  color: #333;
+}
+
+button {
+  background: #333;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  padding: 1rem 1.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  transform: scale(0.98);
+}
